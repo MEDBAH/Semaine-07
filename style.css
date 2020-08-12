@@ -1,0 +1,610 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffbd69;
+  overflow: hidden;
+}
+.header {
+  background-color: #111d5e;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo img {
+  float: left;
+  height: 48px;
+  margin-left: 70px;
+  padding-top: 10px;
+}
+.image {
+  padding: 50px;
+  margin: 40px;
+}
+.image img {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  position: absolute;
+}
+.image:hover img {
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
+.hello {
+  color: #1A1897;
+  float: right;
+  text-align: right;
+  font-size: 150%;
+  margin-right: 200px;
+}
+.hello strong{
+  color: #1A1897;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 15px
+
+
+}
+.hello a {
+  float: left;
+}
+.hello p {
+  text-align: left;
+  height: 10px;
+}
+.hello button{
+  color: #ffffff;
+}
+button {
+  border: 2px #b8111b solid;
+  background-color: #b8111b;
+}
+.sample {
+  color: #ffffff;
+  text-align: right;
+  padding: 100px;
+}
+.sample input {
+  background-color: #ffffff;
+  width: 299px;
+  height: 20px;
+}
+.sample-form {
+  background-color: #111d5e;
+  width: 451px;
+  height: 380px;
+  padding: 25px;
+  float: left;
+  margin-left: 390px;
+}
+textarea {
+  width: 300px;
+  height: 200px;
+  background-color: #ffffff;
+}
+h3 {
+  text-align: center;
+  padding: 0;
+}
+.block-1 {
+  text-align: center;
+  color: #111d5e;
+}
+.block-1 h3 {
+  color: #b8111b;
+  font-size: 250%;
+  text-align: left;
+  margin: 60px;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.block-2 h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.conteneur1 {
+  display: flex;
+}
+.conteneur1 p{
+  font-size: 40px;
+  margin-top: 0px;
+}
+.conteneur1 strong{
+  color: #b8111b;
+}
+.conteneur1 .block-1-gauche {
+  width: 50%;
+  font-size: 150%;
+  text-align: left;
+  color: #111d5e;
+  justify-content: left;
+  margin-left: 60px;
+}
+.conteneur1 .block-1-droite {
+  font-size: 150%;
+  text-align: right;
+  width: 50%;
+  margin-right: 200px;
+  display: flex;
+  justify-content: flex-end;
+}
+.annee2 {
+  text-align: left;
+}
+.block-2 {
+  text-align: right;
+  color: #111d5e;
+}
+.block-2 h3 {
+  color: #b8111b;
+  font-size: 250%;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 100px;
+  padding-left: 65px;
+}
+.conteneur2 {
+  display: flex;
+}
+.conteneur2 p{
+  font-size: 40px;
+  margin-top: 0px;
+}
+.conteneur2 strong{
+  color: #b8111b;
+}
+.conteneur2 .block-2-center1 {
+  width: 50%;
+  font-size: 150%;
+  text-align: left;
+  color: #111d5e;
+  justify-content: left;
+  margin-left: 60px;
+}
+.conteneur2 .block-2-center2 {
+  font-size: 150%;
+  text-align: right;
+  width: 50%;
+  margin-right: 200px;
+  display: flex;
+  justify-content: flex-end;
+}
+.block-2-center1 {
+  font-size: 250%;
+  text-align: center;
+  color: #111d5e;
+}
+.block-3-3 strong{
+  color: #b8111b;
+  line-height: 20px;
+  font-size: 25px;
+  margin:0;
+}
+.block-3-3 p {
+  font-size: 300%;
+  text-align: left;
+  color: #111d5e;
+  margin: 0 0 0 68px;
+
+}
+.block-3 h3 {
+  color: #b8111b;
+  font-size: 250%;
+  text-align: left;
+  margin: 68px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ombre1 {
+  position: relative;
+  background-color: #111d5e;
+  width: 180px;
+  height: 220px;
+  transform: rotate(15deg);
+  z-index: -999;
+  float: left;
+}
+.ombre2 {
+  position: absolute;
+  background-color: #b8111b;
+  width: 180px;
+  height: 220px;
+  transform: rotate(-15deg);
+  z-index: -999;
+  float: left;
+}
+/* footer*/
+.footer {
+  background-color: #111d5e;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}
+.footer img {
+  height: 25px;
+}
+.contac-me {
+  float: left;
+  font-size: 250%;
+  color: #b8111b;
+  padding: 200px;
+}
+.contac-me {
+  float: left;
+  font-size: 250%;
+  color: #111d5e;
+  padding: 140px;
+  padding-left: 85px;
+}
+.contac-me p {
+  font-size: 20px;
+}
+.contac-me h3 strong{
+  color: #b8111b;
+}
+.submit input{
+  width: 58px;
+  border: none;
+  background-color: #b8111b;;
+  color: white;
+  text-align: center;
+}
+.submit{
+  text-align: center;
+  margin-right: 100px;
+}
+/*Cercle pour la page d'accueil*/
+.cercle-1{
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  left: 960px;
+  top: -25px;
+  background:#FFFFFF;
+  opacity: 20%;
+  border-radius:85px;
+  z-index: -999;
+  overflow: hidden;
+  }
+  .cercle-2{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: -15px;
+    top: 55px;
+    background: #FFFFFF;
+    opacity: 30%;
+    border-radius:35px;
+    z-index: -999;
+    overflow: hidden;
+    }
+    .cercle-3{
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      right:-15px;
+      top: 55px;
+      background: #FFFFFF;
+      opacity: 30%;
+      border-radius:50px;
+      z-index: -999;
+      overflow: hidden;
+      }
+      .cercle-4{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        right:-15px;
+        top: 500px;
+        background: #FFFFFF;
+        opacity: 30%;
+        border-radius:75px;
+        z-index: -999;
+        overflow: hidden;
+        }
+        .cercle-5{
+          position: absolute;
+          width: 70px;
+          height: 70px;
+          right:540px;
+          top: 450px;
+          background: #FFFFFF;
+          opacity: 30%;
+          border-radius:35px;
+          z-index: -999;
+          }
+          .cercle-6{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            left:80px;
+            top: 350px;
+            background: #FFFFFF;
+            opacity: 30%;
+            border-radius:100px;
+            z-index: -999;
+            overflow: hidden;
+            }
+  /*Fin de la page d'accueil*/
+  /*Cercle pour la page d'experiences*/
+.cercle-1-1{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 1200px;
+  top: 65px;
+  background:#FFFFFF;
+  opacity: 20%;
+  border-radius:50px;
+  z-index: -999;
+  overflow: hidden;
+  }
+  .cercle-2-2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: -95px;
+    top: 55px;
+    background: #FFFFFF;
+    opacity: 30%;
+    border-radius:100px;
+    z-index: -999;
+    overflow: hidden;
+    }
+    .cercle-3-3{
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      right:-15px;
+      top: 255px;
+      background: #FFFFFF;
+      opacity: 30%;
+      border-radius:100px;
+      z-index: -999;
+      overflow: hidden;
+      }
+      .cercle-4-4{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left:55px;
+        top: 500px;
+        background: #FFFFFF;
+        opacity: 30%;
+        border-radius:75px;
+        z-index: -999;
+        overflow: hidden;
+        }
+        .cercle-5-5{
+          position: absolute;
+          width: 70px;
+          height: 70px;
+          left:540px;
+          top: 310px;
+          background: #FFFFFF;
+          opacity: 30%;
+          border-radius:35px;
+          z-index: -999;
+          }
+  /*Fin de la page d'experiences*/
+  /*Cercle pour la page d'etudes*/
+.cercle-1-1-1{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 560px;
+  top:300px;
+  background:#FFFFFF;
+  opacity: 20%;
+  border-radius:35px;
+  z-index: -999;
+  }
+  .cercle-2-2-2{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: -15px;
+    top: 55px;
+    background: #FFFFFF;
+    opacity: 30%;
+    border-radius:90px;
+    z-index: -999;
+    overflow: hidden;
+    }
+    .cercle-3-3-3{
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      right:-85px;
+      top: 200px;
+      background: #FFFFFF;
+      opacity: 30%;
+      border-radius:75px;
+      z-index: -999;
+      overflow: hidden;
+      }
+      .cercle-4-4-4{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left:155px;
+        top: 580px;
+        background: #FFFFFF;
+        opacity: 30%;
+        border-radius:50px;
+        z-index: -999;
+        overflow: hidden;
+        }
+        .cercle-5-5-5{
+          position: absolute;
+          width: 80px;
+          height: 80px;
+          right:540px;
+          top: 450px;
+          background: #FFFFFF;
+          opacity: 30%;
+          border-radius:40px;
+          z-index: -999;
+          }
+  /*Fin de la page d'etudes*/
+  /*Cercle pour la page de portfolio*/
+.cercle-1-1-1-1{
+  position: absolute;
+  width:150px;
+  height: 150px;
+  left: 960px;
+  top: 65px;
+  background:#FFFFFF;
+  opacity: 20%;
+  border-radius:75px;
+  z-index: -999;
+  overflow: hidden;
+  }
+  .cercle-2-2-2-2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 55px;
+    top: 55px;
+    background: #FFFFFF;
+    opacity: 30%;
+    border-radius:100px;
+    z-index: -999;
+    overflow: hidden;
+    }
+    .cercle-3-3-3-3{
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      right:-15px;
+      top: 55px;
+      background: #FFFFFF;
+      opacity: 30%;
+      border-radius:50px;
+      z-index: -999;
+      overflow: hidden;
+      }
+      .cercle-4-4-4-4{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        right:-15px;
+        top: 500px;
+        background: #FFFFFF;
+        opacity: 30%;
+        border-radius:75px;
+        z-index: -999;
+        overflow: hidden;
+        }
+      .cercle-5-5-5-5{
+          position: absolute;
+          width: 70px;
+          height: 70px;
+          right:540px;
+          top: 450px;
+          background: #FFFFFF;
+          opacity: 30%;
+          border-radius:35px;
+          z-index: -999;
+          }
+          .cercle-6-6-6-6{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            left:80px;
+            top: 350px;
+            background: #FFFFFF;
+            opacity: 30%;
+            border-radius:100px;
+            z-index: -999;
+            overflow: hidden;
+            }
+  /*Fin de la page de portfolio*/
+    /*Cercle pour la page de contact*/
+.cercle-1-1-1-1-1{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 960px;
+  top: 25px;
+  background:#FFFFFF;
+  opacity: 20%;
+  border-radius:150px;
+  z-index: -999;
+  overflow: hidden;
+  }
+  .cercle-2-2-2-2-2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 75px;
+    top: 355px;
+    background: #FFFFFF;
+    opacity: 30%;
+    border-radius:50px;
+    z-index: -999;
+    overflow: hidden;
+    }
+    .cercle-3-3-3-3-3{
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      right:-15px;
+      top: 55px;
+      background: #FFFFFF;
+      opacity: 30%;
+      border-radius:50px;
+      z-index: -999;
+      overflow: hidden;
+      }
+      .cercle-4-4-4-4-4{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        right:-15px;
+        top: 500px;
+        background: #FFFFFF;
+        opacity: 30%;
+        border-radius:75px;
+        z-index: -999;
+        overflow: hidden;
+        }
+        .cercle-5-5-5-5-5{
+          position: absolute;
+          width: 100px;
+          height: 100px;
+          left:40px;
+          top: 50px;
+          background: #FFFFFF;
+          opacity: 30%;
+          border-radius:50px;
+          z-index: -999;
+          }
+  /*Fin de la page de contact*/
+
+
+
+  /* Connaissance */
+
+  .connaissance h1{
+    color: #b8111b;
+    text-align: center;
+    margin-right: 877px;
+  }
+  .connaissance_image{
+    float: left;
+    margin-left: 68px;
+  }
