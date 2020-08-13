@@ -307,8 +307,8 @@ h3 {
         position: absolute;
         width: 150px;
         height: 150px;
-        right:-15px;
-        top: 500px;
+        left:1416px;
+        top: 531px;
         background: #FFFFFF;
         opacity: 30%;
         border-radius:75px;
@@ -602,7 +602,7 @@ h3 {
   .connaissance h1{
     color: #b8111b;
     text-align: center;
-    margin-right: 910px;
+    margin-right: 877px;
   }
   .connaissance_image{
     float: left;
