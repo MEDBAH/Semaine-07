@@ -414,13 +414,13 @@ h3 {
   }
   .cercle-2-2-2{
     position: absolute;
-    width: 180px;
-    height: 180px;
-    left: -15px;
+    width: 250px;
+    height: 250px;
+    right:1308px;
     top: 55px;
     background: #FFFFFF;
     opacity: 30%;
-    border-radius:90px;
+    border-radius:125px;
     z-index: -999;
     overflow: hidden;
     }
