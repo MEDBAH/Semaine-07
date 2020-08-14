@@ -463,13 +463,13 @@ h3 {
   /*Cercle pour la page de portfolio*/
 .cercle-1-1-1-1{
   position: absolute;
-  width:150px;
-  height: 150px;
+  width:300px;
+  height: 300px;
   left: 960px;
   top: 65px;
   background:#FFFFFF;
   opacity: 20%;
-  border-radius:75px;
+  border-radius:150px;
   z-index: -999;
   overflow: hidden;
   }
@@ -478,7 +478,7 @@ h3 {
     width: 200px;
     height: 200px;
     left: 55px;
-    top: 55px;
+    top: 160px;
     background: #FFFFFF;
     opacity: 30%;
     border-radius:100px;
@@ -487,45 +487,46 @@ h3 {
     }
     .cercle-3-3-3-3{
       position: absolute;
-      width: 100px;
-      height: 100px;
-      right:-15px;
-      top: 55px;
+      width: 150px;
+      height: 150px;
+      left: 1450px;
+      top: 132px;
       background: #FFFFFF;
       opacity: 30%;
-      border-radius:50px;
+      border-radius:75px;
       z-index: -999;
       overflow: hidden;
       }
       .cercle-4-4-4-4{
         position: absolute;
-        width: 150px;
-        height: 150px;
-        right:-15px;
-        top: 500px;
+        width: 70px;
+        height: 70px;
+        left:1487px;
+        top: 601px;
         background: #FFFFFF;
         opacity: 30%;
-        border-radius:75px;
+        border-radius:35px;
         z-index: -999;
         overflow: hidden;
         }
       .cercle-5-5-5-5{
           position: absolute;
-          width: 70px;
-          height: 70px;
+          width: 150px;
+          height: 150px;
           right:540px;
-          top: 450px;
+          top: 595px;
           background: #FFFFFF;
           opacity: 30%;
-          border-radius:35px;
+          border-radius:75px;
           z-index: -999;
+          overflow: hidden;
           }
           .cercle-6-6-6-6{
             position: absolute;
             width: 200px;
             height: 200px;
-            left:80px;
-            top: 350px;
+            left:188px;
+            top: 390px;
             background: #FFFFFF;
             opacity: 30%;
             border-radius:100px;
@@ -536,13 +537,13 @@ h3 {
     /*Cercle pour la page de contact*/
 .cercle-1-1-1-1-1{
   position: absolute;
-  width: 300px;
-  height: 300px;
-  left: 960px;
-  top: 25px;
+  width: 200px;
+  height: 200px;
+  left: 607px;
+  top: 0px;
   background:#FFFFFF;
   opacity: 20%;
-  border-radius:150px;
+  border-radius:100px;
   z-index: -999;
   overflow: hidden;
   }
@@ -550,8 +551,8 @@ h3 {
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 75px;
-    top: 355px;
+    right: 1467px;
+    top: 580px;
     background: #FFFFFF;
     opacity: 30%;
     border-radius:50px;
@@ -560,13 +561,13 @@ h3 {
     }
     .cercle-3-3-3-3-3{
       position: absolute;
-      width: 100px;
-      height: 100px;
-      right:-15px;
+      width: 200px;
+      height: 200px;
+      left: 1384px;
       top: 55px;
       background: #FFFFFF;
       opacity: 30%;
-      border-radius:50px;
+      border-radius:100px;
       z-index: -999;
       overflow: hidden;
       }
@@ -574,8 +575,8 @@ h3 {
         position: absolute;
         width: 150px;
         height: 150px;
-        right:-15px;
-        top: 500px;
+        right:566px;
+        top: 529px;
         background: #FFFFFF;
         opacity: 30%;
         border-radius:75px;
@@ -584,13 +585,13 @@ h3 {
         }
         .cercle-5-5-5-5-5{
           position: absolute;
-          width: 100px;
-          height: 100px;
+          width: 200px;
+          height: 200px;
           left:40px;
-          top: 50px;
+          top: 171px;
           background: #FFFFFF;
           opacity: 30%;
-          border-radius:50px;
+          border-radius:100px;
           z-index: -999;
           }
   /*Fin de la page de contact*/
