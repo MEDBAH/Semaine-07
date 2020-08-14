@@ -403,13 +403,13 @@ h3 {
   /*Cercle pour la page d'etudes*/
 .cercle-1-1-1{
   position: absolute;
-  width: 70px;
-  height: 70px;
-  left: 560px;
+  width: 90px;
+  height: 90px;
+  left: 690px;
   top:300px;
   background:#FFFFFF;
   opacity: 20%;
-  border-radius:35px;
+  border-radius:45px;
   z-index: -999;
   }
   .cercle-2-2-2{
