@@ -428,7 +428,7 @@ h3 {
       position: absolute;
       width: 150px;
       height: 150px;
-      right:-85px;
+      left:1460px;
       top: 200px;
       background: #FFFFFF;
       opacity: 30%;
@@ -452,8 +452,8 @@ h3 {
           position: absolute;
           width: 80px;
           height: 80px;
-          right:540px;
-          top: 450px;
+          right:460px;
+          top: 495px;
           background: #FFFFFF;
           opacity: 30%;
           border-radius:40px;
